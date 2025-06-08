@@ -44,10 +44,9 @@
 
 """
 from astrbot.api.event import filter, AstrMessageEvent, MessageEventResult
-from astrbot.api.event.filter import EventMessageType
+from astrbot.api.event.filter import EventMessageType, PlatformAdapterType
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
-from astrbot.api.platform import PlatformAdapterType
 from astrbot.api import AstrBotConfig
 
 @register("wework2qq", "YourName", "企业微信转发到QQ群（多群对多群可配置）", "1.2.0", "https://github.com/YourName/wework2qq")
