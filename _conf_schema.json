@@ -1,0 +1,19 @@
+{
+    "group_mapping": {
+        "description": "企业微信群与QQ群的映射关系（一个企业微信群对应一个QQ群）",
+        "type": "object",
+        "hint": "key为企业微信群ID，value为QQ群ID，可配置多个映射",
+        "items": {
+            "wework_group_id": {
+                "description": "企业微信群ID",
+                "type": "string",
+                "hint": "企业微信的群ID"
+            },
+            "qq_group_id": {
+                "description": "QQ群ID",
+                "type": "string",
+                "hint": "目标QQ群ID"
+            }
+        }
+    }
+} 
